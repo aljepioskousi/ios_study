@@ -6,6 +6,8 @@
 //  Copyright © 2016年 ALJ. All rights reserved.
 //
 
+
+
 import UIKit
 
 class ViewController: UIViewController {
@@ -24,6 +26,7 @@ class ViewController: UIViewController {
 
     @IBAction func buttonPushed(sender: AnyObject) {
         
+        /////
         if myLabel.hidden == true {
             myLabel.hidden = false
         } else {
